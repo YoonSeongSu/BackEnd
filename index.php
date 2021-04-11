@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        
         <form method="post" action="login_ok.php">
             <table border="1">
                 <tr>

@@ -1,0 +1,57 @@
+*{
+    font-family: 'Noto Serif KR', serif;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-size: 15px;
+  }
+body{
+  
+    Margin:0;
+    padding: 0;    
+  }
+  .findpw-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .formfpw{
+    border: 1px solid #cccccc;
+    width: 500px;
+    height: 400px;
+  }
+  .formfpw h3{
+    font-size: 20px;
+  }
+  .title{
+    margin: 50px 30px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .fpw-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .email{
+    margin-bottom: 15px;
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+  }
+  .submit-btn{
+    padding: 0%;
+    width: 70%;
+    height: 35px;
+    color: white;
+    background-color:#0089fe;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+

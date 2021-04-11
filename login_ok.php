@@ -14,11 +14,10 @@
 
         return;
     }
-
+    
     if ($user_id == "" || $user_pw == "") {
         login_fail();
     }
-
     $sql = "select * from user_info where id = '".$user_id."'";
     $result = mysqli_query($db_connection, $sql);
 
