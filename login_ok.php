@@ -8,7 +8,7 @@
         echo "
             <script>
                 alert('아이디 혹은 패스워드를 다시 한 번 확인하세요');
-                history.back();
+                
             </script>
         ";
 
@@ -28,7 +28,7 @@
     }
 
     $user_info = mysqli_fetch_array($result);
-    $hash_pw = $user_info['password'];
+    $hash_pw = $user_info['pw'];
 
     mysqli_close($db_connection);
 

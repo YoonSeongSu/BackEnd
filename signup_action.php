@@ -9,7 +9,7 @@ $address=$_POST['address'];
 $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 $sql = "
     INSERT INTO user_info
-    (id, password, name, address)
+    (id, pw, name, address)
     VALUES('".$email."', '".$hashed_password."', '".$name."', '".$address."')
     ";
 $result = mysqli_query($db_connection, $sql);
