@@ -15,9 +15,9 @@
             <div class="title">
                 <h3>비밀번호를 잊어버렸나요?<br>가입하신 이메일을 적어주세요.</h3>
             </div>
-            <form id="fpw-formid" class="fpw-form" name="fpw-form" action="#" method="POST">
+            <form id="fpw-formid" class="fpw-form" name="fpw-form" action="findpw_action.php" method="POST">
                 
-                <input class="email" type="email" id="emailBox" name="email"  placeholder="이메일">
+                <input class="email" type="email" id="emailBox" name="id"  placeholder="이메일">
                 <button class="submit-btn" type="submit" >제 출</button>
             </form>
         </div>
