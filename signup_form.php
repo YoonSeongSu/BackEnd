@@ -3,7 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> 회원가입</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="new_main.css">
 </head>
  
@@ -14,7 +17,6 @@
        
         <!-- content-->
         <div id="content">
-
             <!-- ID -->
             <div>
                 <h3 class="join_title">
@@ -25,7 +27,6 @@
                 </span>
                 <span class="error_next_box"></span>
             </div>
-
             <!-- PW1 -->
             <div>
                 <h3 class="join_title"><label for="pswd1">비밀번호</label></h3>
@@ -36,7 +37,6 @@
                 </span>
                 <span class="error_next_box"></span>
             </div>
-
             <!-- PW2 -->
             <div>
                 <h3 class="join_title"><label for="pswd2">비밀번호 재확인</label></h3>
@@ -46,7 +46,6 @@
                 </span>
                 <span class="error_next_box"></span>
             </div>
-
             <!-- NAME -->
             <div>
                 <h3 class="join_title"><label for="name">이름</label></h3>
@@ -55,7 +54,6 @@
                 </span>
                 <span class="error_next_box"></span>
             </div>
-
             <!-- address -->
             <div>
                 <h3 class="join_title">
@@ -66,17 +64,14 @@
                 </span>
                 <span class="error_next_box"></span>
             </div>
-
             <!-- JOIN BTN-->
             <div class="btn_area">
                 <button type="submit" id="btnJoin">
                     가입하기
                 </button>
             </div>
-
         </div>
         <!-- content-->
-
     </div>
     <!-- wrapper -->
     <script src="main.js"></script>

@@ -30,7 +30,7 @@ else{
         mysqli_close($db_connection);
         echo "<script>
         alert('비밀번호가 변경되었습니다.');
-        location.href='./main.php';
+        location.href='./main1.php';
         </script>";
     }
     else{

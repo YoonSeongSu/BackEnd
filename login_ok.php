@@ -32,12 +32,13 @@
         mysqli_close($db_connection);
     
         if (password_verify($user_pw, $hash_pw)) {
+            session_unset();
             session_start();
-            $_SESSION['user_id'] = $user_info['id'];
+            $_SESSION["user_id"] = $user_id;
     
             echo "
                 <script>
-                    location.href='main.php';
+                    location.href='main1.php';
                 </script>
             ";
         } else {
